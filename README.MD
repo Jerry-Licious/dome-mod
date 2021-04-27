@@ -8,7 +8,7 @@ Displays all possible moves of all enemies while in combat when you have Runic D
 
 Some enemies have a gigantic list of moves. If you believe that the monster will use a specific move (or one of a selected few moves), you can click on the other moves to "toggle" them. This way, you can focus on the move that you believe the monster will use.
 
-![Hiding Specific Moves](./github/toggle.png)
+![Hiding Specific Moves](./github/toggle_moves.png)
 
 After a monster takes their turn, their last move will be coloured red.
 
