@@ -1,0 +1,6 @@
+Displays all possible moves of all enemies while in combat when you have Runic Dome. Damage calculated in "real time".
+
+Usage:
+* Click on each individual intent to show/hide them.
+* The last move of each monster is coloured red.
+* Some monsters have their damage displayed in a range rather than a specific value.

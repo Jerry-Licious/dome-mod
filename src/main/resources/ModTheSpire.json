@@ -2,7 +2,7 @@
   "modid": "dome_mod",
   "name": "Dome Visualised",
   "author_list": ["Jerry"],
-  "description": "",
+  "description": "Displays all possible moves of all enemies while in combat when you have Runic Dome. Damage calculated in \"real time\".\n\nUsage:\n* Click on each individual intent to show/hide them.\n* The last move of each monster is coloured red.\n* Some monsters have their damage displayed in a range rather than a specific value.",
   "version": "0.0.1",
   "sts_version": "12-22-2020",
   "mts_version": "3.19.0",
