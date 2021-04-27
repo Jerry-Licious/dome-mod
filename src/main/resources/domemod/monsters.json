@@ -1,0 +1,2423 @@
+{
+  "AcidSlime_L": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 1,
+            "base_damage": 11,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEBUFF",
+            "move_id": 4
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 16,
+            "multiplier": 1
+          },
+          {
+            "intent": "UNKNOWN",
+            "move_id": 3
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 1,
+            "base_damage": 12,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEBUFF",
+            "move_id": 4
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 18,
+            "multiplier": 1
+          },
+          {
+            "intent": "UNKNOWN",
+            "move_id": 3
+          }
+        ]
+      }
+    ]
+  },
+  "AcidSlime_M": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 1,
+            "base_damage": 7,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEBUFF",
+            "move_id": 4
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 10,
+            "multiplier": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 1,
+            "base_damage": 8,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEBUFF",
+            "move_id": 4
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 12,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "AcidSlime_S": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 3,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEBUFF",
+            "move_id": 2
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 3,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEBUFF",
+            "move_id": 2
+          }
+        ]
+      }
+    ]
+  },
+  "Cultist": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "BUFF",
+            "move_id": 3
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 6,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "FungiBeast": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 6,
+            "multiplier": 1
+          },
+          {
+            "intent": "BUFF",
+            "move_id": 2
+          }
+        ]
+      }
+    ]
+  },
+  "GremlinFat": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 2,
+            "base_damage": 4,
+            "multiplier": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 2,
+            "base_damage": 5,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "GremlinNob": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "BUFF",
+            "move_id": 3
+          },
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 2,
+            "base_damage": 6,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 14,
+            "multiplier": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 3,
+        "moves": [
+          {
+            "intent": "BUFF",
+            "move_id": 3
+          },
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 2,
+            "base_damage": 8,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 16,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "GremlinThief": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 9,
+            "multiplier": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 10,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "GremlinTsundere": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "DEFEND",
+            "move_id": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 6,
+            "multiplier": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "DEFEND",
+            "move_id": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 8,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "GremlinWarrior": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 4,
+            "multiplier": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 5,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "GremlinWizard": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "UNKNOWN",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 25,
+            "multiplier": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "UNKNOWN",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 30,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "JawWorm": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "DEFEND_BUFF",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 11,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK_DEFEND",
+            "move_id": 3,
+            "base_damage": 7,
+            "multiplier": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "DEFEND_BUFF",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 12,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK_DEFEND",
+            "move_id": 3,
+            "base_damage": 7,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "Lagavulin": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "SLEEP",
+            "move_id": 5
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 3,
+            "base_damage": 18,
+            "multiplier": 1
+          },
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 3,
+        "moves": [
+          {
+            "intent": "SLEEP",
+            "move_id": 5
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 3,
+            "base_damage": 20,
+            "multiplier": 1
+          },
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 1
+          }
+        ]
+      }
+    ]
+  },
+  "Looter": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 10,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 4,
+            "base_damage": 12,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEFEND",
+            "move_id": 2
+          },
+          {
+            "intent": "ESCAPE",
+            "move_id": 3
+          }
+        ]
+      }
+    ]
+  },
+  "Sentry": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 4,
+            "base_damage": 9,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEBUFF",
+            "move_id": 3
+          }
+        ]
+      },
+      {
+        "min_ascension": 3,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 4,
+            "base_damage": 10,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEBUFF",
+            "move_id": 3
+          }
+        ]
+      }
+    ]
+  },
+  "SlaverBlue": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 4,
+            "base_damage": 7,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 12,
+            "multiplier": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 4,
+            "base_damage": 8,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 13,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "SlaverRed": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 13,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 3,
+            "base_damage": 8,
+            "multiplier": 1
+          },
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 2
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 14,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 3,
+            "base_damage": 9,
+            "multiplier": 1
+          },
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 2
+          }
+        ]
+      }
+    ]
+  },
+  "SlimeBoss": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 4
+          },
+          {
+            "intent": "UNKNOWN",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 35,
+            "multiplier": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 4
+          },
+          {
+            "intent": "UNKNOWN",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 38,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "SpikeSlime_L": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 1,
+            "base_damage": 16,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEBUFF",
+            "move_id": 4
+          },
+          {
+            "intent": "UNKNOWN",
+            "move_id": 3
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 1,
+            "base_damage": 18,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEBUFF",
+            "move_id": 4
+          },
+          {
+            "intent": "UNKNOWN",
+            "move_id": 3
+          }
+        ]
+      }
+    ]
+  },
+  "SpikeSlime_M": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 1,
+            "base_damage": 8,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEBUFF",
+            "move_id": 4
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 1,
+            "base_damage": 10,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEBUFF",
+            "move_id": 4
+          }
+        ]
+      }
+    ]
+  },
+  "SpikeSlime_S": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 5,
+            "multiplier": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 6,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "TheGuardian": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "DEFEND",
+            "move_id": 6
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 32,
+            "multiplier": 1
+          },
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 7
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 5,
+            "base_damage": 5,
+            "multiplier": 4
+          },
+          {
+            "intent": "BUFF",
+            "move_id": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 3,
+            "base_damage": 9,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 4,
+            "base_damage": 8,
+            "multiplier": 2
+          }
+        ]
+      },
+      {
+        "min_ascension": 4,
+        "moves": [
+          {
+            "intent": "DEFEND",
+            "move_id": 6
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 36,
+            "multiplier": 1
+          },
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 7
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 5,
+            "base_damage": 5,
+            "multiplier": 4
+          },
+          {
+            "intent": "BUFF",
+            "move_id": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 3,
+            "base_damage": 10,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 4,
+            "base_damage": 8,
+            "multiplier": 2
+          }
+        ]
+      }
+    ]
+  },
+
+  "BanditBear": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 18,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 3,
+            "base_damage": 9,
+            "multiplier": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 20,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 3,
+            "base_damage": 10,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "BanditLeader": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "UNKNOWN",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 3,
+            "base_damage": 10,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 15,
+            "multiplier": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "UNKNOWN",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 3,
+            "base_damage": 12,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 17,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "BanditChild": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 5,
+            "multiplier": 2
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 6,
+            "multiplier": 2
+          }
+        ]
+      }
+    ]
+  },
+  "BronzeAutomaton": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "UNKNOWN",
+            "move_id": 4
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 7,
+            "multiplier": 2
+          },
+          {
+            "intent": "DEFEND_BUFF",
+            "move_id": 5
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 45,
+            "multiplier": 1
+          },
+          {
+            "intent": "STUN",
+            "move_id": 3
+          }
+        ]
+      },
+      {
+        "min_ascension": 4,
+        "moves": [
+          {
+            "intent": "UNKNOWN",
+            "move_id": 4
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 8,
+            "multiplier": 2
+          },
+          {
+            "intent": "DEFEND_BUFF",
+            "move_id": 5
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 50,
+            "multiplier": 1
+          },
+          {
+            "intent": "STUN",
+            "move_id": 3
+          }
+        ]
+      },
+      {
+        "min_ascension": 19,
+        "moves": [
+          {
+            "intent": "UNKNOWN",
+            "move_id": 4
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 8,
+            "multiplier": 2
+          },
+          {
+            "intent": "DEFEND_BUFF",
+            "move_id": 5
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 50,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "BronzeOrb": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "DEFEND",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 8,
+            "multiplier": 1
+          },
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 3
+          }
+        ]
+      }
+    ]
+  },
+  "Byrd": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 1,
+            "multiplier": 5
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 3,
+            "base_damage": 12,
+            "multiplier": 1
+          },
+          {
+            "intent": "BUFF",
+            "move_id": 6
+          },
+          {
+            "intent": "STUN",
+            "move_id": 4
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 5,
+            "base_damage": 3,
+            "multiplier": 1
+          },
+          {
+            "intent": "UNKNOWN",
+            "move_id": 2
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 1,
+            "multiplier": 6
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 3,
+            "base_damage": 14,
+            "multiplier": 1
+          },
+          {
+            "intent": "BUFF",
+            "move_id": 6
+          },
+          {
+            "intent": "STUN",
+            "move_id": 4
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 5,
+            "base_damage": 3,
+            "multiplier": 1
+          },
+          {
+            "intent": "UNKNOWN",
+            "move_id": 2
+          }
+        ]
+      }
+    ]
+  },
+  "Centurion": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 12,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEFEND",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 3,
+            "base_damage": 6,
+            "multiplier": 3
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 14,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEFEND",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 3,
+            "base_damage": 7,
+            "multiplier": 3
+          }
+        ]
+      }
+    ]
+  },
+  "Champ": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 16,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 4,
+            "base_damage": 12,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEFEND_BUFF",
+            "move_id": 2
+          },
+          {
+            "intent": "BUFF",
+            "move_id": 5
+          },
+          {
+            "intent": "DEBUFF",
+            "move_id": 6
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 3,
+            "base_damage": 10,
+            "multiplier": 2
+          }
+        ]
+      },
+      {
+        "min_ascension": 4,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 18,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 4,
+            "base_damage": 14,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEFEND_BUFF",
+            "move_id": 2
+          },
+          {
+            "intent": "BUFF",
+            "move_id": 5
+          },
+          {
+            "intent": "DEBUFF",
+            "move_id": 6
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 3,
+            "base_damage": 10,
+            "multiplier": 2
+          }
+        ]
+      }
+    ]
+  },
+  "Chosen": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 4
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 5,
+            "base_damage": 5,
+            "multiplier": 2
+          },
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 3,
+            "base_damage": 10,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEBUFF",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 18,
+            "multiplier": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 4
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 5,
+            "base_damage": 6,
+            "multiplier": 2
+          },
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 3,
+            "base_damage": 12,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEBUFF",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 21,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "GremlinLeader": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "UNKNOWN",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 4,
+            "base_damage": 6,
+            "multiplier": 3
+          },
+          {
+            "intent": "DEFEND_BUFF",
+            "move_id": 3
+          }
+        ]
+      }
+    ]
+  },
+  "Healer": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "BUFF",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 3,
+            "base_damage": 8,
+            "multiplier": 1
+          },
+          {
+            "intent": "BUFF",
+            "move_id": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "BUFF",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 3,
+            "base_damage": 9,
+            "multiplier": 1
+          },
+          {
+            "intent": "BUFF",
+            "move_id": 1
+          }
+        ]
+      }
+    ]
+  },
+  "Mugger": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 10,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 4,
+            "base_damage": 16,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEFEND",
+            "move_id": 2
+          },
+          {
+            "intent": "ESCAPE",
+            "move_id": 3
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 11,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 4,
+            "base_damage": 18,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEFEND",
+            "move_id": 2
+          },
+          {
+            "intent": "ESCAPE",
+            "move_id": 3
+          }
+        ]
+      }
+    ]
+  },
+  "Shelled Parasite": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 1,
+            "base_damage": 18,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK_BUFF",
+            "move_id": 3,
+            "base_damage": 10,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 6,
+            "multiplier": 2
+          },
+          {
+            "intent": "STUN",
+            "move_id": 4
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 1,
+            "base_damage": 21,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK_BUFF",
+            "move_id": 3,
+            "base_damage": 12,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 7,
+            "multiplier": 2
+          },
+          {
+            "intent": "STUN",
+            "move_id": 4
+          }
+        ]
+      }
+    ]
+  },
+  "SnakePlant": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 7,
+            "multiplier": 3
+          },
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 2
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 8,
+            "multiplier": 3
+          },
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 2
+          }
+        ]
+      }
+    ]
+  },
+  "Snecko": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 1
+          },
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 3,
+            "base_damage": 8,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 15,
+            "multiplier": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 1
+          },
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 3,
+            "base_damage": 10,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 18,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "SphericGuardian": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "DEFEND",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 4,
+            "base_damage": 10,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 10,
+            "multiplier": 2
+          },
+          {
+            "intent": "ATTACK_DEFEND",
+            "move_id": 3,
+            "base_damage": 10,
+            "multiplier": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "DEFEND",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 4,
+            "base_damage": 11,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 11,
+            "multiplier": 2
+          },
+          {
+            "intent": "ATTACK_DEFEND",
+            "move_id": 3,
+            "base_damage": 11,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "SlaverBoss": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 7,
+            "multiplier": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 18,
+        "moves": [
+          {
+            "intent": "ATTACK_BUFF",
+            "move_id": 2,
+            "base_damage": 7,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "TheCollector": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "UNKNOWN",
+            "move_id": 5
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 18,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEFEND_BUFF",
+            "move_id": 3
+          },
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 4
+          }
+        ]
+      },
+      {
+        "min_ascension": 4,
+        "moves": [
+          {
+            "intent": "UNKNOWN",
+            "move_id": 5
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 21,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEFEND_BUFF",
+            "move_id": 3
+          },
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 4
+          }
+        ]
+      }
+    ]
+  },
+  "TorchHead": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 7,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+
+  "AwakenedOne": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 6,
+            "multiplier": 4
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 20,
+            "multiplier": 1
+          },
+          {
+            "intent": "SPECIAL",
+            "move_id": 3
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 5,
+            "base_damage": 40,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 6,
+            "base_damage": 18,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 8,
+            "base_damage": 10,
+            "multiplier": 3
+          }
+        ]
+      }
+    ]
+  },
+  "Deca": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "DEFEND",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 0,
+            "base_damage": 10,
+            "multiplier": 2
+          }
+        ]
+      },
+      {
+        "min_ascension": 4,
+        "moves": [
+          {
+            "intent": "DEFEND",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 0,
+            "base_damage": 12,
+            "multiplier": 2
+          }
+        ]
+      },
+      {
+        "min_ascension": 19,
+        "moves": [
+          {
+            "intent": "DEFEND_BUFF",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 0,
+            "base_damage": 12,
+            "multiplier": 2
+          }
+        ]
+      }
+    ]
+  },
+  "Donu": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "BUFF",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 0,
+            "base_damage": 10,
+            "multiplier": 2
+          }
+        ]
+      },
+      {
+        "min_ascension": 4,
+        "moves": [
+          {
+            "intent": "BUFF",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 0,
+            "base_damage": 12,
+            "multiplier": 2
+          }
+        ]
+      }
+    ]
+  },
+  "Exploder": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 9,
+            "multiplier": 1
+          },
+          {
+            "intent": "UNKNOWN",
+            "move_id": 2
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 11,
+            "multiplier": 1
+          },
+          {
+            "intent": "UNKNOWN",
+            "move_id": 2
+          }
+        ]
+      }
+    ]
+  },
+  "Nemesis": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 6,
+            "multiplier": 3
+          },
+          {
+            "intent": "DEBUFF",
+            "move_id": 4
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 3,
+            "base_damage": 45,
+            "multiplier": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 3,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 7,
+            "multiplier": 3
+          },
+          {
+            "intent": "DEBUFF",
+            "move_id": 4
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 3,
+            "base_damage": 45,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "Orb Walker": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 1,
+            "base_damage": 10,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 15,
+            "multiplier": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 1,
+            "base_damage": 11,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 16,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "Reptomancer": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "UNKNOWN",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 1,
+            "base_damage": 13,
+            "multiplier": 2
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 3,
+            "base_damage": 30,
+            "multiplier": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 3,
+        "moves": [
+          {
+            "intent": "UNKNOWN",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 1,
+            "base_damage": 16,
+            "multiplier": 2
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 3,
+            "base_damage": 34,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "Repulsor": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "DEBUFF",
+            "move_id": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 11,
+            "multiplier": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "DEBUFF",
+            "move_id": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 13,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "Dagger": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 1,
+            "base_damage": 9,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 25,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "Spiker": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 7,
+            "multiplier": 1
+          },
+          {
+            "intent": "BUFF",
+            "move_id": 2
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 9,
+            "multiplier": 1
+          },
+          {
+            "intent": "BUFF",
+            "move_id": 2
+          }
+        ]
+      }
+    ]
+  },
+  "Serpent": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 16,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 3,
+            "base_damage": 22,
+            "multiplier": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 18,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 3,
+            "base_damage": 25,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "TimeEater": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 4,
+            "base_damage": 26,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 7,
+            "multiplier": 3
+          },
+          {
+            "intent": "DEFEND_DEBUFF",
+            "move_id": 3
+          },
+          {
+            "intent": "BUFF",
+            "move_id": 5
+          }
+        ]
+      },
+      {
+        "min_ascension": 4,
+        "moves": [
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 4,
+            "base_damage": 32,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 8,
+            "multiplier": 3
+          },
+          {
+            "intent": "DEFEND_DEBUFF",
+            "move_id": 3
+          },
+          {
+            "intent": "BUFF",
+            "move_id": 5
+          }
+        ]
+      }
+    ]
+  },
+  "WrithingMass": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK_DEFEND",
+            "move_id": 2,
+            "base_damage": 15,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 3,
+            "base_damage": 10,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 7,
+            "multiplier": 3
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 0,
+            "base_damage": 32,
+            "multiplier": 1
+          },
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 4
+          }
+        ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "ATTACK_DEFEND",
+            "move_id": 2,
+            "base_damage": 16,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 3,
+            "base_damage": 12,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 9,
+            "multiplier": 3
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 0,
+            "base_damage": 38,
+            "multiplier": 1
+          },
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 4
+          }
+        ]
+      }
+    ]
+  },
+
+  "CorruptHeart": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 3
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 2,
+            "multiplier": 12
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 40,
+            "multiplier": 1
+          },
+          {
+            "intent": "BUFF",
+            "move_id": 4
+          }
+        ]
+      },
+      {
+        "min_ascension": 4,
+        "moves": [
+          {
+            "intent": "STRONG_DEBUFF",
+            "move_id": 3
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 2,
+            "multiplier": 15
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 2,
+            "base_damage": 45,
+            "multiplier": 1
+          },
+          {
+            "intent": "BUFF",
+            "move_id": 4
+          }
+        ]
+      }
+    ]
+  },
+  "SpireShield": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 2,
+            "base_damage": 12,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEFEND",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK_DEFEND",
+            "move_id": 2,
+            "base_damage": 34,
+            "multiplier": 1
+          }
+        ]
+      },
+      {
+        "min_ascension": 3,
+        "moves": [
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 2,
+            "base_damage": 14,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEFEND",
+            "move_id": 2
+          },
+          {
+            "intent": "ATTACK_DEFEND",
+            "move_id": 2,
+            "base_damage": 38,
+            "multiplier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "SpireSpear": {
+    "move_sets": [
+      {
+        "min_ascension": 0,
+        "moves": [
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 1,
+            "base_damage": 5,
+            "multiplier": 2
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 3,
+            "base_damage": 10,
+            "multiplier": 3
+          },
+          {
+            "intent": "BUFF",
+            "move_id": 2
+          }
+        ]
+      },
+      {
+        "min_ascension": 3,
+        "moves": [
+          {
+            "intent": "ATTACK_DEBUFF",
+            "move_id": 1,
+            "base_damage": 6,
+            "multiplier": 2
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 3,
+            "base_damage": 10,
+            "multiplier": 4
+          },
+          {
+            "intent": "BUFF",
+            "move_id": 2
+          }
+        ]
+      }
+    ]
+  }
+}
