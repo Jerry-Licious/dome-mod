@@ -18,6 +18,23 @@ Some monsters (louse and darklings to be specific) do not have a fixed base dama
 
 ![Louse](./github/damage_range.png)
 
+## Installation
+
+1. Go to the [releases](https://github.com/Jerry-Licious/dome-mod/releases) page and find the latest release.
+2. Download `dome_mod.jar` from the **Assets** section.
+3. Start the mod launcher from Steam by clicking **Play** -> **Play with Mods**.
+   * If you do not have the mod launcher, you can get it from the Steam Workshop with [this link](https://steamcommunity.com/sharedfiles/filedetails/?id=1605060445).
+   * After subscribing to Mod the Spire, you should be able to open the mod launcher.
+4. On the top left of the mod launcher, there should be a *folder button*. Clicking it will open your *mod folder*.
+   ![The Mod Folder Button](./github/mod_launcher.png)
+5. Copy `dome_mod.jar` (the entire thing, do not extract it) to the mod folder.
+6. Restart the mod launcher and click on the Dome Mod to enable it.
+   * If the mod is coloured orange in the mod launcher, it means that you do not have **BaseMod** installed.
+     ![No BaseMod](./github/no_basemod.png)
+   * BaseMod is the framework that most mods depend on, you can get it from the Steam Workshop with [this link](https://steamcommunity.com/sharedfiles/filedetails/?id=1605833019).
+   * After subscribing to BaseMod, restart the mod launcher and enable it.
+7. Click **Play** to play with the mod.
+
 ## Recommendation
 
 This mod is best played with ojb's [Bestiary](https://github.com/casey-c/bestiary) mod, which lets you look at the details of each move in combat.
