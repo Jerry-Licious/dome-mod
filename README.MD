@@ -17,3 +17,11 @@ After a monster takes their turn, their last move will be coloured red.
 Some monsters (louse and darklings to be specific) do not have a fixed base damage for some of their attacks. Their base damage is rolled at the start of each combat. Since the mod should not provide information that the player is not supposed to know, the range of possible damage will be shown instead.
 
 ![Louse](./github/damage_range.png)
+
+## Recommendation
+
+This mod is best played with ojb's [Bestiary](https://github.com/casey-c/bestiary) mod, which lets you look at the details of each move in combat.
+
+## Acknowledgements
+
+Special thanks for ojb for putting the [Bestiary](https://github.com/casey-c/bestiary) on GitHub, which allowed me to collect all the enemy patterns easier.
