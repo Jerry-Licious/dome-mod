@@ -4,6 +4,7 @@ import com.evacipated.cardcrawl.modthespire.lib.SpirePatch
 import com.evacipated.cardcrawl.modthespire.lib.SpirePostfixPatch
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon
 import com.megacrit.cardcrawl.monsters.AbstractMonster
+import domemod.DomeMod
 import domemod.moves.AscensionMoveSet
 import domemod.moves.MonsterDatabase
 import domemod.moves.MoveInfo
@@ -24,6 +25,7 @@ class MonsterConstructorPatch {
             }
 
             moveSet.updatePositions(monster.intentHb)
+            moveSet.updateIntents(monster)
 
             monster.moveSet = moveSet
         }
