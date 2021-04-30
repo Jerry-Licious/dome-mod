@@ -1742,7 +1742,7 @@
             "multiplier": 1
           },
           {
-            "intent": "SPECIAL",
+            "intent": "UNKNOWN",
             "move_id": 3
           },
           {
