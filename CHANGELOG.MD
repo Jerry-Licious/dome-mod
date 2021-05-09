@@ -1,5 +1,16 @@
 # Changelog
 
+## [v0.0.3] - 2021-05-08 - Bug Fixes
+
+#### Bug Fixes
+
+* The mod should no longer softlock you in the spire elites fight.
+* Spire Shield's intents now display correctly.
+
+#### Known Issues
+
+* Possibility of guessing book's next move.
+
 ## [v0.0.2] - 2021-04-30 - Bug Fixes
 
 #### Bug Fixes

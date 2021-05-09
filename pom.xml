@@ -3,7 +3,7 @@
 
     <groupId>domemod</groupId>
     <artifactId>dome_mod</artifactId>
-    <version>v0.0.2</version>
+    <version>v0.0.3</version>
     <packaging>jar</packaging>
 
     <name>Dome Mod</name>
