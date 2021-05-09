@@ -2345,7 +2345,7 @@
           },
           {
             "intent": "ATTACK_DEFEND",
-            "move_id": 2,
+            "move_id": 3,
             "base_damage": 34,
             "multiplier": 1
           }
@@ -2366,7 +2366,7 @@
           },
           {
             "intent": "ATTACK_DEFEND",
-            "move_id": 2,
+            "move_id": 3,
             "base_damage": 38,
             "multiplier": 1
           }
