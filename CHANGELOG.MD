@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+#### Changes
+
+* The thought bubble behind enemy intents is now less transparent and clearer.
+
 #### Bug Fixes
 
 * It is now impossible to guess book of stabbing's next move based on the stab count displayed by dome mod.

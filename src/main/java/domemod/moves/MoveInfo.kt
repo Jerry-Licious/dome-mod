@@ -35,13 +35,13 @@ open class MoveInfo(val intent: AbstractMonster.Intent,
         val disabledForegroundColour = Color(1f, 1f, 1f, 0.2f)
 
         @JvmField
-        val defaultBackgroundColour = Color(1f, 1f, 1f, 0.3f)
+        val defaultBackgroundColour = Color(1f, 1f, 1.0f, 0.4f)
         @JvmField
-        val hoveredBackgroundColour = Color(1f, 1f, 1f, 0.4f)
+        val hoveredBackgroundColour = Color(1f, 1f, 1.0f, 0.5f)
         @JvmField
-        val lastMoveBackgroundColour = Color(1f, 0.5f, 0.5f, 0.4f)
+        val lastMoveBackgroundColour = Color(1f, 0.5f, 0.5f, 0.5f)
         @JvmField
-        val hoveredLastMoveBackgroundColour = Color(1f, 0.5f, 0.5f, 0.5f)
+        val hoveredLastMoveBackgroundColour = Color(1f, 0.5f, 0.5f, 0.6f)
 
         @JvmField
         val intentHitboxSize = 64f * Settings.scale
@@ -50,6 +50,10 @@ open class MoveInfo(val intent: AbstractMonster.Intent,
 
         @JvmField
         val background = Texture("domemod/intent_background.png")
+        @JvmField
+        val backgroundSize = 70f
+        @JvmField
+        val halfBackgroundSize = backgroundSize / 2
     }
 
     @Transient
@@ -192,9 +196,9 @@ open class MoveInfo(val intent: AbstractMonster.Intent,
 
     fun renderBackground(spriteBatch: SpriteBatch) {
         spriteBatch.setColor(backgroundColour)
-        spriteBatch.draw(background, hitbox.cX - 40f, hitbox.cY - 40f, 40f, 40f,
-            80f, 80f, Settings.scale, Settings.scale, 0f,
-            0, 0, 64, 64, false, false)
+        spriteBatch.draw(background, hitbox.cX - halfBackgroundSize, hitbox.cY - halfBackgroundSize,
+                halfBackgroundSize, halfBackgroundSize, backgroundSize, backgroundSize, Settings.scale, Settings.scale, 0f,
+            0, 0, 200, 200, false, false)
     }
 
     fun renderIntent(spriteBatch: SpriteBatch) {
