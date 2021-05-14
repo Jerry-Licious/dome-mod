@@ -141,6 +141,11 @@ open class MoveInfo(val intent: AbstractMonster.Intent,
             } else {
                 defaultBackgroundColour
             }
+        }.cpy()
+
+        // If the icon is disabled, make the background more transparent.
+        if (!enabled) {
+            backgroundColour.a /= 2
         }
     }
 

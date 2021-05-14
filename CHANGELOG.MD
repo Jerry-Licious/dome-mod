@@ -4,7 +4,8 @@
 
 #### Changes
 
-* The thought bubble behind enemy intents is now less transparent and clearer.
+* Thought bubbles behind enemy intents is now less transparent and clearer.
+* Thought bubble behind enemy intents is now more transparent when the intent is "toggled off".
 
 #### Bug Fixes
 
