@@ -11,7 +11,7 @@ class TransientAttackMoveInfo(baseDamage: Int): MoveInfo(AbstractMonster.Intent.
         var additionalDamage = if (monster is Transient) {
             ReflectionHacks.getPrivate<Int>(monster, Transient::class.java, "count") * 10
         } else { 0 }
-        DomeMod.logger.info("Additional Damage = ${additionalDamage}")
+
         damage = calculateDamage(baseDamage + additionalDamage, monster)
 
         intentImage = getIntentImg()
