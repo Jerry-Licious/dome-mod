@@ -23,12 +23,12 @@
        style="color-interpolation-filters:sRGB;"
        inkscape:label="Feather"
        id="filter1014"
-       x="-4.3199948e-05"
-       width="1.0000864"
-       y="-4.3200052e-05"
-       height="1.0000864">
+       x="-0.05275748"
+       width="1.105515"
+       y="-0.052757608"
+       height="1.1055152">
       <feGaussianBlur
-         stdDeviation="0.00030479963"
+         stdDeviation="0.37223333"
          result="blur"
          id="feGaussianBlur1006" />
       <feComposite
