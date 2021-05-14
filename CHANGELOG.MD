@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased]
+
+#### Bug Fixes
+
+* It is now impossible to guess book of stabbing's next move based on the stab count displayed by dome mod.
+
 ## [v0.0.3] - 2021-05-08 - Bug Fixes
 
 #### Bug Fixes
