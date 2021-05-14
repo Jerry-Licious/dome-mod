@@ -2,10 +2,14 @@
 
 ## [v0.0.4] - 2021-05-14 - Minor Adjustments
 
+#### Features
+
+* Added mod icon and badge.
+
 #### Changes
 
 * Thought bubbles behind enemy intents is now less transparent and clearer.
-* Thought bubble behind enemy intents is now more transparent when the intent is "toggled off".
+* Thought bubbles behind enemy intents is now more transparent when the intent is "toggled off".
 
 #### Bug Fixes
 
