@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased]
+## [v0.0.4] - 2021-05-14 - Minor Adjustments
 
 #### Changes
 
