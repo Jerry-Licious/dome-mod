@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+#### Bug Fixes
+
+* Fixed a bug where the mod flashes the wrong intent when the mystic buffs. 
+
 ## [v0.0.4] - 2021-05-14 - Minor Adjustments
 
 #### Features
