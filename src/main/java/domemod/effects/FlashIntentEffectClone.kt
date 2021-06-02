@@ -7,7 +7,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon
 import com.megacrit.cardcrawl.vfx.AbstractGameEffect
 
 // Clone of the original FlashIntentEffect class, used to display at a set location instead of above the monster.
-class FlashIntentEffectClone(val image: Texture, val cX: Float, val cY: Float): AbstractGameEffect() {
+class FlashIntentEffectClone(val image: Texture?, val cX: Float, val cY: Float): AbstractGameEffect() {
     companion object {
         @JvmField
         val DURATION = 1f
@@ -25,7 +25,9 @@ class FlashIntentEffectClone(val image: Texture, val cX: Float, val cY: Float): 
         intervalTimer -= Gdx.graphics.deltaTime
         if (intervalTimer < 0f) {
             intervalTimer = FLASH_INTERVAL
-            AbstractDungeon.effectsQueue.add(FlashIntentParticleClone(image, cX, cY))
+            if (image != null) {
+                AbstractDungeon.effectsQueue.add(FlashIntentParticleClone(image, cX, cY))
+            }
         }
         duration -= Gdx.graphics.deltaTime
         if (duration < 0f) isDone = true

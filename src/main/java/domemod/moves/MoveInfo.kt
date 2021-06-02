@@ -284,7 +284,7 @@ open class MoveInfo(val intent: AbstractMonster.Intent,
 
     fun flashIntent(move: Byte) {
         if (moveID == move) {
-            AbstractDungeon.effectsQueue.add(FlashIntentEffectClone(intentImage!!, hitbox.cX, hitbox.cY))
+            AbstractDungeon.effectsQueue.add(FlashIntentEffectClone(intentImage, hitbox.cX, hitbox.cY))
         }
     }
 

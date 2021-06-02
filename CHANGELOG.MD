@@ -1,10 +1,11 @@
 # Changelog
 
-## Unreleased
+## [Unreleased]
 
 #### Bug Fixes
 
 * Fixed a bug where the mod flashes the wrong intent when the mystic buffs. 
+* Fixed a bug where the mod crashes the game when enemies take their turn while being stunned.
 
 ## [v0.0.4] - 2021-05-14 - Minor Adjustments
 
@@ -44,4 +45,3 @@
 #### Features
 
 * Added display for enemy patterns when the player has Runic Dome.
-
