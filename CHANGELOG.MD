@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased]
+
+#### Bug Fixes
+
+- Fixed a bug where the damage intent of looters are incorrect above ascension 2.
+
 ## [v0.0.5] - 2021-06-01 - Bug Fixes
 
 #### Bug Fixes

@@ -477,6 +477,31 @@
             "move_id": 3
           }
         ]
+      },
+      {
+        "min_ascension": 2,
+        "moves": [
+          {
+            "intent": "ATTACK",
+            "move_id": 1,
+            "base_damage": 11,
+            "multiplier": 1
+          },
+          {
+            "intent": "ATTACK",
+            "move_id": 4,
+            "base_damage": 14,
+            "multiplier": 1
+          },
+          {
+            "intent": "DEFEND",
+            "move_id": 2
+          },
+          {
+            "intent": "ESCAPE",
+            "move_id": 3
+          }
+        ]
       }
     ]
   },
