@@ -273,13 +273,13 @@ open class MoveInfo(val intent: AbstractMonster.Intent,
         tmp = player.stance.atDamageReceive(tmp, DamageInfo.DamageType.NORMAL)
 
         if (ReflectionHacks.privateMethod(AbstractMonster::class.java, "applyBackAttack").invoke(monster)) {
-            tmp = (tmp * 1.5f).roundToInt().toFloat()
+            tmp = (tmp * 1.5f).toInt().toFloat()
         }
 
         monster.powers.forEach { tmp = it.atDamageFinalGive(tmp, DamageInfo.DamageType.NORMAL) }
         player.powers.forEach { tmp = it.atDamageFinalReceive(tmp, DamageInfo.DamageType.NORMAL) }
 
-        return tmp.roundToInt().coerceAtLeast(0)
+        return tmp.toInt().coerceAtLeast(0)
     }
 
     fun flashIntent(move: Byte) {
