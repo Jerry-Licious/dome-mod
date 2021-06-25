@@ -82,6 +82,8 @@ open class MoveInfo(val intent: AbstractMonster.Intent,
     @Transient
     var enabled = true
     @Transient
+    var isLastMove = false
+    @Transient
     var foregroundColour = enabledForegroundColour.cpy()
     @Transient
     var backgroundColour = defaultBackgroundColour.cpy()
@@ -120,16 +122,7 @@ open class MoveInfo(val intent: AbstractMonster.Intent,
     }
 
     private fun updateBackgroundColour(monster: AbstractMonster) {
-        backgroundColour = if (
-            // Writhing mass actually queues moves into the move history when the reactive buff activates,
-            // causing the player to *know* the last move it rolled. An option is added to disable this
-            // behaviour.
-            !monster.hasPower(ReactivePower.POWER_ID) &&
-            // Render the last move with a red background.
-            // The last move in the move history is actually the current move. To fetch the last move, access the
-            // second last move instead.
-            monster.moveHistory.size > 1 &&
-            moveID == monster.moveHistory[monster.moveHistory.size - 2]) {
+        backgroundColour = if (isLastMove) {
             if (hitbox.hovered) {
                 hoveredLastMoveBackgroundColour
             } else {
@@ -282,10 +275,8 @@ open class MoveInfo(val intent: AbstractMonster.Intent,
         return tmp.toInt().coerceAtLeast(0)
     }
 
-    fun flashIntent(move: Byte) {
-        if (moveID == move) {
-            AbstractDungeon.effectsQueue.add(FlashIntentEffectClone(intentImage, hitbox.cX, hitbox.cY))
-        }
+    fun flashIntent() {
+        AbstractDungeon.effectsQueue.add(FlashIntentEffectClone(intentImage, hitbox.cX, hitbox.cY))
     }
 
     public override fun clone() = MoveInfo(intent, moveID, baseDamage, multiplier)

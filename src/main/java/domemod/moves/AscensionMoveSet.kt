@@ -13,7 +13,7 @@ import kotlin.collections.ArrayList
 class AscensionMoveSet(@SerializedName("min_ascension") val minAscension: Int,
                        val moves: ArrayList<MoveInfo>,
                        @Transient
-                       val lastMove: Int = -1):
+                       var lastMove: Byte = -1):
     Comparable<AscensionMoveSet>, Cloneable {
     fun update(monster: AbstractMonster) {
         moves.forEach { it.update(monster) }
@@ -42,7 +42,14 @@ class AscensionMoveSet(@SerializedName("min_ascension") val minAscension: Int,
     }
 
     fun flashIntent(move: Byte) {
-        moves.forEach { it.flashIntent(move) }
+        moves.forEach {
+            if (move == it.moveID) {
+                it.flashIntent()
+                it.isLastMove = true
+            } else {
+                it.isLastMove = false
+            }
+        }
     }
 
     override fun compareTo(other: AscensionMoveSet) = minAscension.compareTo(other.minAscension)
