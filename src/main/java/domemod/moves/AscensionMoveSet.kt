@@ -11,7 +11,9 @@ import kotlin.collections.ArrayList
 
 // The move collection stores a list of possible moves for a specific monster.
 class AscensionMoveSet(@SerializedName("min_ascension") val minAscension: Int,
-                       val moves: ArrayList<MoveInfo>):
+                       val moves: ArrayList<MoveInfo>,
+                       @Transient
+                       val lastMove: Int = -1):
     Comparable<AscensionMoveSet>, Cloneable {
     fun update(monster: AbstractMonster) {
         moves.forEach { it.update(monster) }
